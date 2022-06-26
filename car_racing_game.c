@@ -1,3 +1,5 @@
+//Importing Libraries
+
 #include<conio.h> 
 #include<process.h> 
 #include<stdio.h> 
@@ -10,6 +12,8 @@
 #define UP 72 
 #define DOWN 80 
 #define ENTER 13 
+
+//Car Class
 class CAR 
 { 
     public: 
@@ -456,6 +460,7 @@ void help()
     getch(); 
     return ; 
 } 
+//Menu Option
 void menu() 
 { 
     int s = 1, t = 0, a, p = 140; 
@@ -516,6 +521,7 @@ void menu()
     while ( t == 0 ); 
     getch(); 
 } 
+// Main File for Execution
 void main() 
 { 
     int gdriver = DETECT, gmode, errorcode; 
